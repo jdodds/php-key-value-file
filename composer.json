@@ -1,0 +1,22 @@
+{
+    "name" : "jdodds/key-value-file",
+    "description" : "a simple file-backed persistent key-value store",
+    "homepage" : "https://github.com/jdodds/php-key-value-file",
+    "license" : "BSD-2-Clause",
+    "authors" : [
+        {
+            "name" : "Jeremiah Dodds",
+            "email" : "jeremiah.dodds@gmail.com",
+            "homepage" : "https://github.com/jdodds",
+            "role" : "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit" : "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "JDodds\\Storage": "src/"
+        }
+    }
+}
